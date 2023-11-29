@@ -20,6 +20,7 @@
 
     section#login {
         width: 80vw;
+        height: 400px;
     }
 
     section#login > div#imagem {
@@ -32,6 +33,14 @@
         float: left;
         width: 70%;
     }
+
+    div#formulario > p {
+        margin-bottom: 30px;
+    }
+
+    form > input[type=submit] {
+        margin: 20px 0px 10px 0px;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -42,6 +51,7 @@
 
     section#login {
         width: 950px;
+        height: 400px;
     }
 
     section#login > div#imagem {
@@ -61,5 +71,10 @@
 
     div#formulario > p {
         font-size: 1em;
+        margin-bottom: 30px;
+    }
+
+    form > input[type=submit] {
+        margin: 20px 0px 10px 0px;
     }
 }
